@@ -1,5 +1,61 @@
-.page__header {
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  background-image: url('/img/cover.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content:flex-end;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+
+
+  &__text {
+    font-family: $font-main;
+    font-size: 30px;
+    color: $color-white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    
+    &--sub {
+      font-family: $font-text;
+      font-size: 15px;
+      color: $color-white;
+      text-align: center;
+      padding: 5px;
+      margin: 5px 20px;
+    }
+  }
+}
+
+.menu {
+  width: 37px;
+  height: 34px;
+  background-color: $color-orange;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+ 
+
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 45%;
+  margin: 20px auto;
+  background-image: url('/img/ico-scroll-down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
 }
