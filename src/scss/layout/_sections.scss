@@ -1,0 +1,74 @@
+.slogan {
+    color: $color-orange;
+    font-family: $font-text;
+    font-size: 1.4rem;
+    margin: 40px auto 5px 18px;
+}
+
+.title {
+    font-family: $font-main;
+    font-size: 2.5rem;
+    margin: auto auto 5px 18px;
+
+    &__text {
+        font-family: $font-text;
+        font-size: 1.8rem;
+        line-height: 30px;
+        margin: auto 18px;
+    }
+}
+
+.button {
+    color: $color-orange;
+    font-family: $font-text;
+    font-size: 1.8rem;
+    border: $color-orange solid 2px;
+    padding: 10px 40px;
+    margin: 20px auto 50px 18px;
+    border-radius: 40px;
+    
+}
+
+.section {
+    background-color: $color-gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    &__button {
+        color: $color-white;
+        background-color: $color-orange;
+        font-family: $font-text;
+        font-size: 1.8rem;
+        border: $color-orange solid 2px;
+        padding: 10px 20px;
+        margin: 20px auto 50px auto;
+        border-radius: 40px; 
+        }
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.promo {
+    font-family: $font-main;
+    font-size: 1.8rem;
+    margin: 30px 40px;
+    
+    &__text {
+        font-family: $font-main;
+        font-size: 1.6rem;
+         
+
+        &--sub {
+            font-family: $font-text;
+            font-size: 1.6rem;
+
+        }
+    }
+}
+
