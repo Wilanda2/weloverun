@@ -9,7 +9,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
-        padding-top: 60px;
+        padding: 60px 60px 30px 60px;
     }
 
     &__arrow {
@@ -37,7 +37,6 @@
         text-transform: uppercase;
         @media (min-width: 768px) {
             text-align: left;
-            font-size: 2rem;
         }
     }
     
@@ -48,7 +47,6 @@
         text-align: center; 
         @media (min-width: 768px) {
             text-align: left;
-            font-size: 2rem;
             order: -1;
         }
     }

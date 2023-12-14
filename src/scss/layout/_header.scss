@@ -20,8 +20,11 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
+    @media (min-width: 768px) {
+      font-size: 7.5rem;
+      line-height: 100px;
+    }
      
-    
     &--sub {
       font-family: $font-text;
       font-size: 1.6rem;
@@ -29,8 +32,13 @@
       text-align: center;
       padding: 5px;
       margin: 5px 20px;
+      @media (min-width: 768px) {
+        font-size: 2.4rem;
+        line-height: 30px;
+        margin: 5px 200px;
+      }
     }
-  }
+  } 
 }
 
 .menu {
@@ -43,7 +51,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px;
+  padding: 13px;
+  @media (min-width: 768px) {
+    width: 41px;
+    height: 44px;
+    padding: 13px;
+    }
  
 
 }
@@ -52,8 +65,8 @@
   width: 40px;
   height: 40px;
   background-color: white;
-  border-radius: 45%;
-  margin: 20px auto;
+  border-radius: 50%;
+  margin: 0px auto 20px auto;
   background-image: url('/img/ico-scroll-down.svg');
   background-repeat: no-repeat;
   background-position: center;
