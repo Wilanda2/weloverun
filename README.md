@@ -9,3 +9,4 @@ Un servicio muy completo.
 - HTML 5
 - CSS 3
 - CSS grid
+- La maquetación está hecha con diseño responsive mobile first (desde 320px a 1200px).
